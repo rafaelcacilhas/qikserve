@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# First day
+Learned to deploy the API, started the architecture
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Second day
+Home page and cart logic
 
-## Available Scripts
+### Third day (saturday)
+Finished the Cart page and made a quick User page.
+Fixed a bug when adding the same item on the cart
 
-In the project directory, you can run:
+## Fourth day 
+Did the CartItem component and all the calculations related to the price
+Solved all bugs
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Question 1 - 
+About two or three hours a day, during four days. The details can be seen above.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Question 2 - 
+There are a lot of small changes to the design that can be made. The biggest one 
+would be to implement the possibility to edit the cart; I did not implement a "remove from cart" 
+or "edit" cart; you can do this by adding the product again and the software will override it, 
+which is not intuitive for the user, but it's easy to implement. 
 
-### `npm test`
+## Question 3 - 
+The most important: it need CORS. Took a while to figure out how to enable the access from the front-end 
+and this should be dealt in the back-end. Besides that it would be nice if the API was hosted on the web,
+which would algo solve the previous issue.
+In a design point of view I would add a image for each food so the front-end can better design an app.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Question 4 -
+I had some problems calculating the discount, because I did it in the CartItem component and needed them
+in the Cart page. In the end I just used the code to calculate it again in the Cart Page.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Question 5 - 
+This was a very practical and direct test. I would have liked to know in more details what is expected from
+me. I didn't know if I should take one more day to make it responsive, for instance. 
